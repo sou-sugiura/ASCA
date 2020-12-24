@@ -74,8 +74,8 @@ module apb_regs_top
     parameter APB_ADDR_WIDTH     = 12,  //APB slaves are 4KB by default
     parameter APB_DATA_WIDTH     = 32,
     parameter N_REGION_MAX       = 4,
-    parameter N_MASTER_PORT      = 16,
-    parameter N_SLAVE_PORT       = 16
+    parameter N_MASTER_PORT      = 12,
+    parameter N_SLAVE_PORT       = 12
 )
 (
     input  logic                                                             HCLK,
